@@ -1,2 +1,3 @@
 # ficbook-filters
-Custom filters
+
+Google Chrome extension: custom filters
