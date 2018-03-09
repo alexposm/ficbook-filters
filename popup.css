@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+body {
+  min-width: 300px;
+  margin: 0;
+  font-family: Segoe UI, Arial, sans-serif;
+  font-size: 14px;
+  color: #545454;
+  background-color: #EEEEEE;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  line-height: 1.72;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  color: #76482e;
+  background-color: #f6ecda;
+  border-color: #76482e;
+  border-radius: 2px;
+  white-space: normal;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 12px;
+  outline: none;
+}
+
+.btn:hover {
+  color: #d8b38a;
+  background: #fff;
+  border-color: #76482e;
+}
+
+.no-select {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+}
+
+.main {
+  padding: 15px;
+  background-color: #f6ecda;
+}
+
+.main .filters-container {
+  margin: 10px 0;
+}
+
+.main .filters-container .filter-item {
+  padding: 5px;
+}
+
+.main .filters-container .filter-item:nth-of-type(odd) {
+  background-color: #daccba;
+}
+
+.main .filters-container .filter-item label {
+  margin-left: 5px;
+  cursor: pointer;
+}

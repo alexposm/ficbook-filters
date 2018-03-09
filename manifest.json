@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Ficbook Filters",
+  "version": "1.0",
+  "description": "Custom filters for https://ficbook.net/popular",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ficbook.net/*"
+      ],
+      "js": ["js/jquery.js", "js/content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "icons": {
+    "16": "128.png",
+    "48": "128.png",
+    "128": "128.png"
+  },
+  "browser_action": {
+    "default_icon": "128.png",
+    "default_popup": "popup.html",
+    "default_title": "Ficbook Filters"
+  }
+}
