@@ -13,6 +13,10 @@ var filters = [
 	},
 	{
 		"text": "Стёб",
-		"value": "steb"
+		"value": "derision"
+	},
+	{
+		"text": "Пародия",
+		"value": "parody"
 	}
 ];
